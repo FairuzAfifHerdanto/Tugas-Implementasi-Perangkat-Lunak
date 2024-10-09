@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kasih Cinta</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>KG <span>Kasih Cinta</span></h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">Beranda</a></li>
+                    <li><a href="#">Tentang</a></li>
+                    <li><a href="#">Layanan</a></li>
+                    <li><a href="#">Donasi</a></li>
+                    <li><a href="#">Kontak</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h2>Ayo Bersama Ubah Dunia <br><span>Menjadi Lebih Baik</span></h2>
+            <a href="#" class="btn">Donate Now</a>
+        </div>
+    </section>
+
+    <section class="about">
+        <div class="container about-container">
+            <div class="about-text">
+                <h2 style="color: #FFD700;">About Kasih Cinta</h2>
+                <h3><strong>Kami Bersama Mereka</strong></h3>
+                <p>Selamat datang di Kasih Cinta, tempat kasih sayang bertemu dengan tindakan. Misi kami adalah memberikan dampak yang berarti pada kehidupan anak-anak yang membutuhkan. Dengan komitmen yang didorong oleh hati, kami berupaya menciptakan perubahan positif di komunitas kami dan sekitarnya. Di Arm Givers, kami percaya pada kekuatan kemurahan hati kolektif untuk mengatasi masalah-masalah mendesak, menciptakan dunia di mana empati tidak mengenal batas. Bergabunglah bersama kami dalam perjalanan kasih sayang ini, karena bersama-sama, kita membangun masa depan yang lebih cerah bagi semua anak yang tidak memiliki sumber daya dan hak istimewa.</p>
+            </div>
+            <div class="about-image">
+                <img src="images/about-us.jpg" alt="About Kasih Cinta">
+            </div>
+        </div>
+    </section>
+
+    <section class="howto">
+        <div class="container">
+            <h2 style="color: white;">Cara Mulai Membantu</h2>
+            <p style="color: white;">Dalam menjalankan tugasnya, yayasan amal menyediakan berbagai pelayanan sosial seperti pendidikan, pangan, obat-obatan, perumahan, dan lain-lain.</p>
+            <div class="steps">
+                <div class="step">
+                    <img src="images/icon-regist.jpg" alt="Register Yourself" class="step-icon">
+                    <h3 style="color: white;">Daftarkan Dirimu</h3>
+                    <p style="color: white;">Jadikan dirimu bagian dari orang baik yang Cinta Berbagi.</p>
+                </div>
+                <div class="step">
+                    <img src="donate-icon.png" alt="Select Donate" class="step-icon">
+                    <h3 style="color: white;">Pilih Berdonasi</h3>
+                    <p style="color: white;">Berbagi kebaikan dengan orang lain.</p>
+                </div>
+                <div class="step">
+                    <img src="share-icon.png" alt="Share Happiness" class="step-icon">
+                    <h3 style="color: white;">Berbagi Cinta</h3>
+                    <p style="color: white;">Berbagi cinta akan membawakan senyumas dan membuat hal baik terjadi.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="our-services">
+        <div class="container">
+            <h2 style="color: #FFD700;">Layanan Kami</h2>
+            <p>Semua Orang Layak Bahagia</p>
+            <div class="services-container">
+                <div class="service-box">
+                    <h3>Pendidikan</h3>
+                    <p>We engage children in scholarship programs to enable them to have strong educational backgrounds.</p>
+                </div>
+                <div class="service-box">
+                    <h3>Health Care</h3>
+                    <p>We engage children in health care programs to ensure they receive necessary medical attention.</p>
+                </div>
+                <div class="service-box">
+                    <h3>Campaign</h3>
+                    <p>We conduct campaigns to raise awareness and gather support for children in need.</p>
+                </div>
+                <div class="service-box">
+                    <h3>Skill Acquisition</h3>
+                    <p>We engage children in skill acquisition programs to equip them with essential life skills.</p>
+                </div>
+            </div>
+        </div>
+    </section>     
+
+    <section class="donation-card">
+        <div class="container">
+            <h2>Your help is Needed</h2>
+            <div class="donation-grid">
+                <div class="donation-box">
+                    <img src="your-image.jpg" alt="Donation Image">
+                    <div class="donation-info">
+                        <h3>$20/MON</h3>
+                        <p>Or Make One Time Donation</p>
+                        <h4>Share Food With Others In Need</h4>
+                        <button>Donate Now</button>
+                        <div class="progress-info">
+                            <span>Raised: $69,152</span>
+                            <span>Goal: $89,000</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress"></div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Duplicate the donation-box div for more cards -->
+            </div>
+        </div>
+    </section>    
+
+    <section class="donate-form">
+        <div class="container">
+            <h2>Donate Now</h2>
+            <form>
+                <label for="amount">Amount to Donate</label>
+                <input type="number" id="amount" name="amount" placeholder="$">
+
+                <label for="card-name">Card Name</label>
+                <input type="text" id="card-name" name="card-name" placeholder="Your Card Name">
+
+                <label for="card-number">Card Number</label>
+                <input type="text" id="card-number" name="card-number" placeholder="XXXX-XXXX-XXXX-XXXX">
+
+                <label for="expiry-date">Card Expiry Date</label>
+                <input type="month" id="expiry-date" name="expiry-date">
+
+                <label for="cvv">Card CVV</label>
+                <input type="number" id="cvv" name="cvv" placeholder="CVV">
+
+                <button type="submit">Donate Now</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="contact-form">
+                <h2>Contact Us</h2>
+                <form>
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Your Name">
+
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Your Email">
+
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" placeholder="Your Message"></textarea>
+
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+            <div class="info">
+                <p>Phone: +90 664 485 8961</p>
+                <p>Email: armgivers@gmail.com</p>
+                <p>Location: 123 Alt Street, Los Angeles</p>
+                <p>Hours: 08:00 - 20:00</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
